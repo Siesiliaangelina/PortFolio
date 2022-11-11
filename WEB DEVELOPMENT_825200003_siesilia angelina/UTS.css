@@ -1,0 +1,227 @@
+* {padding: 0; margin: 0;}
+body {background-color:lightgrey;}
+.container {width:1263px; font-family: arial; height: auto; position: relative; margin: auto; background-color: whitesmoke;}
+header {height:95px; width: 100%; background-color: rgba(35, 45, 57, 0.8);}
+.menu .logo img {height: 95px; width: 80px; float: left; margin-left: 63px; text-decoration: none;}
+.menu a {text-decoration: none;}
+.menu h1 {color: white; margin: 30px 170px; list-style: none; position: absolute; }
+nav { margin-left:550px; position:static;  line-height: 95px; z-index: 1;}
+nav ul li {float:left; list-style: none; }
+nav ul li a {padding-left: 20px; padding-right:20px; color:white;}
+nav ul li ul {display: none; position: relative;}
+nav ul li:hover > ul {display: block;}
+nav ul li:hover {transition: background 2s ease; background-color: teal;  }
+nav ul li a:hover { color: black; transition-timing-function: ease-out;}
+nav ul li ul li {float: none; padding-left: 30px; position: relative; background-color: rgba(35,45,57,0.8);}
+.submenu {line-height: 50px; border-top: 3px solid red; width: 150px; position:absolute; z-index: 1;}
+nav ul ul ul {left: 100%; top:0%}
+.submen {top: 0%; position:absolute; width: 172px; border-top: 4px solid red;}
+.image {background-image: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5) ), url(galery/dubai.jpg); width:100%; height: 645px; background-size:cover;}
+.image .tulisan {padding: 180px 0px;}
+.image .tulisan .line { width: 200px; height: 3px; background-color: white; margin-left: 530px; }
+.image .tulisan h3 {color: white; font-size: 30px;  margin-left: 490px; margin-top: 3%; margin-bottom: 3%;} 
+.image .tulisan span {color:white; font-size:16px; margin-left: 280px;}
+.image .button {font-family:'Lucida Sans Regular'; background-color:red; padding: 8px 25px; width: 170px; margin-left: 520px; margin-top: 3%; border: 2px solid red;}
+.image .button a {text-decoration: none; color:white;}
+.image .button:hover {transition: 1s transform ease-in; background-color: transparent; }
+.image form {background-color: white; padding: 13px; margin-left: 150px; border-bottom: 5px solid red; display: inline-block;}
+form input {border: none; border-right: 1px solid #ddd; outline: none; width: 215px; height: 45px; margin-right: 10px;}
+form select {border: none; border-right: 1px solid #ddd; outline: none; width: 215px; height: 45px; margin-right: 10px;}
+form button { width:215px; margin-left: 10px; height: 45px; line-height: 35px; text-align: center;
+    display: inline-block;
+    border-radius: 0px;
+    background-color:red;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    color: #fff;
+    font-weight: 600;
+    border: 2px solid red;
+    transition: all 0.5s;}
+form button:hover {background-color: transparent; color: red;}
+.articletext {text-align: center; margin-top: 80px; height: 400px;}
+.articletext span {font-size: 20px;}
+.articletext h2 {margin-top: 20px; font-size: 20px;}
+.articletext .gallery1 {position:relative;
+    width: 215px;
+    height: 230px;
+    font-size: 16px;
+    margin-top: 60px;
+    margin-left: 25px;
+    margin-right: 10px;
+    float: left; }
+.articletext .gallery1 img {position: relative; width: 100%; height: 100%; border-radius: 5px; background-image: rgba(0, 0, 0, 0.5); }
+.gallery1 img {filter:brightness(70%);}
+.text h4 {position: absolute; top:2%; margin-left: 15px; color: white; margin-bottom: 20px;}
+.text span {font-size: 22px; color: white; text-align: center; width: 32px; height:32px; position: absolute; background-color:red; border-radius: 50%;
+            top: 13%; left: 8%;}
+.gallery1 .plus {position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9;}
+.gallery1 .plus i{width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    transition: all 0.5s;}
+.gallery1 .plus a, i {font-weight: 700; font-size: 30px; }
+.gallery1 .plus i:hover { background-color: rgba(250,250,250,0.3);}
+.row {background-color: beige; height: 750px;}
+.section-heading {text-align: center; padding:80px;}
+.section-heading span {font-size: 35px;}
+.section-heading h3 {margin-top: 30px; font-size: 20px;}
+.foto {position: relative; z-index: 1; width: 320px; height:230px;}
+.foto img {width: 100%; border-top-left-radius: 5px; border-top-right-radius: 5px; height: 100%; margin-left: 60px; }
+.rate {position:absolute; text-align: center; width: 60px; height: 60px; top: 15px; color: white; background-color: red; border-radius: 50%; margin-left: 70px;}
+.rate h5 {margin-top: 10px; font-size: 16px;}
+.foto span {font-size: 14px;}
+.foto h4 {margin-top: 2px;}
+.page {margin-bottom: 30px; width: 335px;
+       position:relative; float: left; margin-left: 40px;}
+.down-content {margin-left: 60px; margin-right: 983px;
+    background-color: #fff;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+    padding: 20px 20px 0px 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 40px; width: 280px; height: 160px;
+  }
+.down-content h3 { margin-top: 0px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #232323;
+    margin-bottom: 5px;}
+.down-content p {  margin-bottom: 25px; line-height: 20px; font-size: 15px;}
+.col-md-6 {  padding-left: 0px;
+    padding-right: 0px; display: inline-block;}
+.col-md-6 .text-button { font-size: 13px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    border-top: 1px solid #ddd;
+  }
+.col-md-6 .first-button {border-right: 1px solid #ddd; margin-left: 0px;}
+.col-md-6 .text-button a { 
+    text-transform: uppercase;
+    color: #7a7a7a;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    transition: all 0.5s; margin-right: 13px;}
+.col-md-6 .text-button a:hover {color: red;}
+.schedule {background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(galery/sky.jpg); background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+.flight {text-align: center; padding: 13%; padding-bottom: 8%; color: white;}
+.flight h2 {font-size: 50px; font-family:'Segoe UI'; font-weight: 900;}
+.flight h2 em {font-style: normal; color: red;}
+.flight img {width: 130px;}
+.flight p {padding: 0px 20%; line-height: 30px; color: white; font-family: sans-serif;}
+.days {text-align: center; font-size: 20px; font-family: sans-serif; color: white; padding-bottom: 40px;}
+.days a {text-decoration: none; color: white;}
+.days a:after {content: "/"; color: white; margin-left: 10px; margin-right: 10px;}
+.days a:last-child::after {display: none; }
+.days a:first-child {margin-left: 10px;}
+.days a.active {color: red;} 
+.days a:hover {color: red;}
+.table {height: 800px;}
+table {border: 1px solid white; margin:auto; }
+.last {border-bottom: none;}
+td {padding: 50px 70px; color: white; font-size: 20px; text-align: center; border-bottom: 1px solid white; border-right: 1px solid white;}
+td:last-child {border-right: none; }
+.video span {position: absolute; z-index: 9999; color: white; left: 44%; top: 35%; font-size: 22px;}
+.video h2 {position: absolute;  z-index: 9999; color: white; left: 33%; top: 40%; font-family: sans-serif; font-size: 25px;}
+.video img {position: absolute;  z-index: 9999; width: 80px; height: auto; left: 47%; top: 50%;}
+video {width: 100%; filter: brightness(60%); height: 100%;}
+.self {height: 900px; font-family: sans-serif; background: linear-gradient(to left,white 0%,white 65%,#000000 50%,beige 50%, beige 100%);}
+.self img {clip-path: circle(50%); width: 200px; margin: 70px 130px 30px; height: 200px; }
+.self  h1 {font-family: sans-serif; font-size: 40px; margin: 30px 110px 0px;}
+.self .garis { width: 832px; height: 5px; background-color:black; margin-left: 110px; }
+.self .left h2 {margin-left: 110px; margin-top: 30px;}
+.self span {margin-left: 110px; font-size: 20px; display: block;}
+.right  {margin-left: 600px; margin-top: -548px;}
+.right h2 {margin-top: 30px; margin-left: -110px; margin-bottom: 5px;}
+.right span {margin-left: -80px;}
+.top {margin-top: -240px; margin-left: 350px; margin-bottom: 120px;}
+.top h1 {font-size: 50px;}
+.right h1 {margin-top: 45px;}
+.right h3 {font-size: 40px; margin-left: 100px; margin-top: 90px; margin-bottom: 30px;}
+.right h4 {font-size: 40px; margin-left: 185px;  margin-bottom: 30px;}
+.right h5 {font-size: 40px; margin-left: 155px; margin-bottom: 30px;}
+.peta iframe {width: 631px; float: left;}
+.formisi {width: 631px; margin-top: 0%; float: right; height: 450px; background-image: url(galery/japan.webp);}
+.formdoang {  margin-left: 70px; height: 400px;  margin-top: 30px; background-color: white; width: 500px; position: absolute;}
+.formisi input  {border-radius: 2%; padding: 0px 8px; border: 1px solid #ddd; width: 180px ; height: 40px; margin-left: 30px; margin-top: 40px;}
+.formdoang .inputText1 {width:422px; height: 45px; margin-top: 20px;}
+.formdoang .inputText2 {width:422px; height: 150px; margin-top: 20px;}
+.button1 {width:150px;
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 40px;
+    text-align: center;
+    background-color:red;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    color: #fff;
+    border: 2px solid red;
+    transition: all 0.5s;}
+form button:hover {background-color: transparent; color: red;}
+.package {
+    background-color: white; height: 750px;
+}
+.package .capt {padding: 60px; text-align: center; font-family: Arial;}
+.package span {font-size: 22px;}
+.package h3 {margin-top: 20px;}
+.package .kolom1 { background: linear-gradient(to top,whitesmoke 0%, whitesmoke 70%, red 40%, red 100%); 
+                   width: 350px; font-family: arial; float: left; margin-left: 55px;
+                   text-align: center; border-radius: 10px; height: 500px;}
+.kolom1 .head h3 {margin-top: 30px; font-size: 24px;}
+.kolom1 .head h4 {margin-top: 15px; font-size: 23px; margin-bottom: 10px;}
+.kolom1 .head span {font-size: 18px;}
+.kolom1 .head {color: white;}
+.kolom1 .tail {margin-top: 60px; font-family: arial;}
+.kolom1 .tail h3 {margin-bottom: 10px; font-size: 20px;}
+.kolom1 .button {font-family:'Lucida Sans Regular'; background-color:red; padding: 10px 5px; width: 100px; margin: auto; margin-top: 40px; border: 2px solid red;}
+.kolom1 .button a {text-decoration: none; color:white;}
+.kolom1 .button:hover {transition: 1s transform ease-in; background-color: transparent;}
+.kolom1 .button a:hover {color: black;}
+.frompeta {height: 450px;}
+.close {height: 550px;}
+.kanan {width: 548px; float: left;}
+.kanan img {height: 70px; width: 60px; margin: 100px 70px;}
+.kanan h1 {margin-left: 160px; font-weight: 100;  margin-top: -155px;}
+.kanan p {padding: 10px 20px; margin-top: 45px; color: black; margin-left: 47px; text-align: left; font-family: arial;}
+.kanan li {float: left; margin-left: 60px; list-style: none; }
+.kanan li img {width: 40px; height: 40px; padding: 5px 10px; margin: 0%;}
+.kanan li img:hover {width: 50px; height: 50px;}
+.tengah {width: 400px; float: left; font-family: arial;}
+.tengah a {color: black; text-decoration: none;}
+.tengah h4 {margin-left: 20px; margin-top: 120px; font-size: 25px; font-weight: 100;}
+.tengah li a:hover {color: red;}
+.link {float: left; margin-left: 35px; margin-top: 40px;}
+.link2 {float: left; margin-left: 80px; margin-top: 40PX;}
+.kiri {width: 315px; float: left;}
+.kiri h4 {font-size: 28px; margin-top: 120px; font-weight: 100; font-family: arial;}
+.kiri p {padding-right: 20px; font-size: 16px; margin-top: 50px; color:black;}
+.kiri ul {margin-top: 40px;}
+.kiri ul li {margin-bottom: 15px; list-style: none;}
+.kiri ul li a {text-decoration: none;}
+footer {padding: 30px; text-align: center; color: whitesmoke; background-color: gray;}
+footer a {text-decoration: none; }
+.application{text-align: center;}
+.application h1 {padding-top: 110px; padding-bottom: 15px;}
+.application .lineb {width: 700px; height: 2px; background-color:red; margin-left: 280px; margin-bottom: 20px;}
+.application p { font-family: arial; width: 650px; margin-left: 305px; font-size: 17px; letter-spacing: 1px;}
+.application .formbawah {margin-top: 50px;}
+.formbawah input {width: 100px; height: 35px; border-radius: 9px solid; padding: 0px 8px; margin: 0px 15px;}
+.formbawah select {width: 120px; height: 35px; padding: 0px 8px; margin-right: 15px;}
+.formbawah button {display: block; margin-left: 550px; margin-top: 30px; background-color: red; color: white; width: 180px; height: 35px; font-size: 18px; border: none; margin-bottom: 140px; border: 2px solid red;}
+.buttonbawah button {border-radius: 10px; border: none; font-size: 23px;}
+.buttonbawah .b1 {width: 170px; height:55px; color: white; background-color: darkgreen; margin-right: 20px; border: 2px solid darkgreen;}
+.buttonbawah .b2 {width: 170px; height:55px; color: white; background-color: blueviolet; margin-right: 20px; border: 2px solid blueviolet;}
+.buttonbawah .b3 {width: 230px; height:55px; color: white; background-color: gray; margin-right: 20px; border: 2px solid gray;}
+.buttonbawah .b4 {width: 300px; height:55px; color: white; background-color: brown; border: 2px solid brown;}
+.buttonbawah button:hover {background-color: transparent; color: black;}
+.formbawah button:hover {background-color: transparent; color: black;}

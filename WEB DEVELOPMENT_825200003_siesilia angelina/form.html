@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GO TRAVEL</title>
+    <link href="galery/gt.ico" rel="shortcut icon">
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <style type="text/css">
+        body {background-color:lightgrey;}
+.container {width:1263px; font-family: arial; height: auto; position: relative; margin: auto; background-color: whitesmoke; }
+header {height:95px; width: 100%; background-color: rgba(35, 45, 57, 0.8);}
+.menu .logo img {height: 95px; width: 80px; float: left; margin-left: 63px; text-decoration: none;}
+.menu a {text-decoration: none;}
+.menu h1 {color: white; margin: 30px 170px; list-style: none; position: absolute; }
+nav { margin-left:550px; position:static;  line-height: 95px; z-index: 1;}
+nav ul li {float:left; list-style: none; }
+nav ul li a {padding-left: 20px; padding-right:20px; color:white;}
+nav ul li ul {display: none; position: relative;}
+nav ul li:hover > ul {display: block;}
+nav ul li:hover {transition: background 2s ease; background-color: teal;  }
+nav ul li a:hover { color: black; transition-timing-function: ease-out;}
+nav ul li ul li {float: none; padding-left: 30px; position: relative; background-color: rgba(35,45,57,0.8);}
+.submenu {line-height: 50px; border-top: 3px solid red; width: 150px; position:absolute; z-index: 1;}
+nav ul ul ul {left: 100%; top:0%}
+.submen {top: 0%; position:absolute; width: 172px; border-top: 4px solid red;}
+footer {padding: 30px; text-align: center; color: whitesmoke; background-color: gray;}
+footer a {text-decoration: none; }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="menu">
+                    <a href="MAIN WEB.html"> <h1>GO TRAVEL</h1>
+                    <div class="logo">
+                        <img src="galery/logo.png" alt="galeryLogo">
+                        
+                    </div>
+                    </a>
+                    <nav>
+                        <ul>
+                            <li><a href="MAIN WEB.html">HOME</a></li>
+                            <li><a href="#">MOST VISITED</a>
+                                <ul class="submenu">
+                                    <li><a href="#">JAPAN</a>
+                                        <ul class="submen"> 
+                                            <li><a href="#">Hakone</a></li>
+                                            <li><a href="#">Kusatsu</a></li>
+                                            <li><a href="#">Noboribetsu</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Norway</a>
+                                        <ul class="submen"> 
+                                            <li><a href="#">Sognefjord</a></li>
+                                            <li><a href="#">Pulpit Rock</a></li>
+                                            <li><a href="#">Tromsø</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Indonesia</a>
+                                        <ul class="submen"> 
+                                            <li><a href="#">Dieng Plateau</a></li>
+                                            <li><a href="#">Raja Ampat</a></li>
+                                            <li><a href="#">Lombok</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="Food.html">FOOD BLOG</a></li>
+                            <li><a href="form.html">OUR SERVICES</a></li>
+                            <li><a href="maps.html">CONTACT US</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <article>
+                <form>
+                    <div class="itemform">
+                        <div class="form1">
+                            <label for="Namadepan">Nama Depan</label>
+                            <label for="NamaBelakang">Nama Belakang</label>
+                            <label for="Alamat">Alamat Lengkap</label>
+                        </div>
+        
+                        <div class="form2">
+                            <input type="text" class="inputText" id="Namadepan" placeholder="Nama Depan Anda" requiredname=""> <br>
+                            <input type="text" class="inputText" id="NamaBelakang" placeholder="Nama Belakang Anda" requiredname=""> <br>
+                            <input type="text" class="inputText" id="Alamat" placeholder="Alamat Lengkap Anda" requiredname="">
+                        </div>
+                    </div>
+                <br> <br>
+                    <fieldset>
+                        <legend>Sex</legend>
+                        <input type="radio" class="radio" id="idpria" name="gender">
+                            <label for="idpria" class="sex" >Male</label> <br>
+                        <input type="radio" class="radio" id="idwanita" name="gender" checked>
+                            <label for="idwanita" class="sex">Female</label>
+                    </fieldset>
+                <br> <br>
+                    <fieldset>
+                        <legend>Category</legend>
+                        <input type="checkbox" class="check" id="voli" name=""> 
+                            <label for="voli">Food</label> <br>
+                        <input type="checkbox" class="check" id="sepakbola" name="">
+                            <label for="sepakbola">Travel</label> <br>
+                        <input type="checkbox" class="check" id="bultang" name="">
+                            <label for="bultang">Hotel</label>
+                    </fieldset>
+                <br> <br>
+
+                <fieldset>
+                    <legend>Problems</legend>
+                    <select>
+                        <option selected>Please Select</option>
+                        <option>Web Error</option>
+                        <option>this Website is Complicated</option>
+                        <option>I Can't See the Image so well</option>
+                        <option>The layout is Messy</option>
+                        <option>Other</option>
+                    </select>
+                </fieldset>
+                    
+                <br> <br>
+                    Criticism & Suggestions
+                    <textarea rows="5" cols="60"></textarea>
+                    <br> <br>
+                <div class="Tool">
+                    Password Anda <input type="password" placeholder="Password Anda" name="">
+                <div class="tips">
+                 <input type="submit" value="Kirim" onclick="alert('Form berhasil terkirim')" name="" >  <span> Mengirimkan data input </span>
+                </div>
+                </div>
+                </form>
+            </article>
+            <footer>
+                Copyright &copy; 2021 Go Travel - UTS <a href="#"> Webdev </a>
+            </footer>
+        </div>
+        
+        
+    </body>
+    </html>
